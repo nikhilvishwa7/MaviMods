@@ -28,7 +28,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5
 
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001606185333'))
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7436687322 5149183428').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5149183428').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -68,10 +68,10 @@ CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone 
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Your_Movie_Link_8')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Hindi_movie_uplod')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_downlod09/7')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Your_Movie_Link_8') # Support Chat Link Without https:// or @
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+x58PMGpuiMNjN2Y1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/One8fucks')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/One8fucks/35')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+x58PMGpuiMNjN2Y1') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -95,8 +95,8 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'arlinks.in')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '12b3417a01f54122a9e9bfb700e995abd0db8052')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'arolinks.com')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '733158ce0a679ae8ab63c4cab14ab6a6c1441e19')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
@@ -104,8 +104,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/how_to_downlod09/
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arlinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '12b3417a01f54122a9e9bfb700e995abd0db8052')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '733158ce0a679ae8ab63c4cab14ab6a6c1441e19')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
@@ -159,3 +159,4 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 
 #MaviMods
+
