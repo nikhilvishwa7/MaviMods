@@ -17,17 +17,17 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'MaviMon')
 API_ID = int(environ.get('API_ID', '27499182'))
 API_HASH = environ.get('API_HASH', '9c58142ef6abed28808a50e3e983c39c')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7209496105:AAHZGGvvDkzrFx-TdPzCSa_-o1SG6q-j5uI")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6618999138:AAH0-Bq6dF-FjwBSVUWRONEt5ZGnIgIX_Vw")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://envs.sh/7cg.jpg https://envs.sh/7cO.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/7cO.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001606185333'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001537820228'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5149183428').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
@@ -48,8 +48,8 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nk3442838:O7WYTvufEdtDKSqC@cluster0.6krhy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nk3442838:Ngx4gCgsMZvnxaSG@cluster0.vqee7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "elsa")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Premium And Referal Settings
@@ -159,4 +159,5 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 
 #MaviMods
+
 
