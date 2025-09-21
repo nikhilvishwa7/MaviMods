@@ -2069,7 +2069,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url=GRP_LNK),
-            InlineKeyboardButton('sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url="https://github.com/MaviMods/MaviMovieV3")
+            InlineKeyboardButton('sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url="https://github.com/")
         ],[
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats')
         ],[
@@ -3435,3 +3435,4 @@ async def global_filters(client, message, text=False):
                 break
     else:
         return False
+
