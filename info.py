@@ -14,9 +14,9 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'MaviMon')
-API_ID = int(environ.get('API_ID', '27499182'))
-API_HASH = environ.get('API_HASH', '9c58142ef6abed28808a50e3e983c39c')
+SESSION = environ.get('SESSION', 'TechVJBo')
+API_ID = int(environ.get('API_ID', '9544691'))
+API_HASH = environ.get('API_HASH', 'de2f2e633c293dcb0f73deebc364c306')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6618999138:AAH0-Bq6dF-FjwBSVUWRONEt5ZGnIgIX_Vw")
 
 # Bot settings
@@ -159,5 +159,6 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 
 #MaviMods
+
 
 
